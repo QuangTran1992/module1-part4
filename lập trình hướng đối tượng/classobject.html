@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // function Student(id, name, address) {
+      //   this.id = id;
+      //   this.name = name;
+      //   this.address = address;
+      //   this.getInfor = function () {
+      //     return "id= " + this.id + "name = " + this.name;
+      //   };
+      // }
+      // var student = new Student(1, "thomeo", " hanoi");
+      // console.log(student.getInfor());
+      var str = " Hello      World! ";
+
+      console.log((str = str.trim()));
+      while (str.indexOf("  ") != -1) {
+        str = str.replace("  ", " ");
+      }
+
+      console.log(str);
+    </script>
+  </body>
+</html>
